@@ -16,10 +16,10 @@
   z-index: -1;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
-
-  background: url("/src/assets/dusk.jpg");
+  background-image: url("/src/assets/dusk.jpg");
   background-position: center;
   background-size: cover; 
+
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -29,7 +29,7 @@
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-    text-align: left;
+    text-align: center;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -48,7 +48,7 @@
   }
 
   .hero-cta {
-    display: flex;
+    text-align: center;
 
     @include respond(tab-port) {
       justify-content: center;
